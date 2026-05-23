@@ -125,4 +125,4 @@ npm run dev
 
 ## Author
 
-Built as a structured learning path from zero AI/ML knowledge to production-grade multi-agent systems.
+Designed and built end-to-end: RAG pipeline architecture, multi-agent orchestration with reviewer loops, and a full-stack platform integrating both systems.
