@@ -1,0 +1,18 @@
+# Environment
+.env
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Vector database (auto-generated, do not commit)
+chroma_db/
+
+# PDF data files (add your own PDFs locally)
+data/*.pdf
+
+# IDE
+.vscode/
+.idea/

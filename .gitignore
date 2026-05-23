@@ -1,0 +1,51 @@
+# Environment — never commit secrets
+.env
+.env.local
+.env.*
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Vector DB — auto-generated, too large
+chroma_db/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temp files
+*.tmp.*
+*.tmp
+
+# Claude Code settings (local only)
+.claude/
+
+# SQLite databases (auto-generated at runtime)
+*.db
+*.sqlite
+
+# Requirements lock files (optional, keep if you want reproducible installs)
+# requirements-lock.txt
